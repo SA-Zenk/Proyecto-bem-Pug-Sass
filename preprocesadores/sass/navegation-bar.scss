@@ -1,0 +1,22 @@
+.navigation-bar {
+	&__item {
+		&:hover {
+			color: #ce7d35;
+			transition: all 0.3s;
+
+			.navigation-bar__submenu {
+				display: block;
+				color: rgba(22, 115, 202, 0.679);
+				background: rgb(233, 233, 233);
+				padding: 15px;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&__submenu {
+		display: none;
+		position: absolute;
+		z-index: 100;
+	}
+}

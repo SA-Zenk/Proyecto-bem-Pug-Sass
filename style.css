@@ -37,7 +37,6 @@ nav ul {
   padding: 15px;
   text-decoration: none;
 }
-
 .navigation-bar__submenu {
   display: none;
   position: absolute;
@@ -49,7 +48,9 @@ nav ul {
 .hero {
   width: 100%;
 }
-
+.hero--black {
+  background-color: #353535;
+}
 .hero__image-container {
   width: 100%;
   max-width: 100%;
@@ -59,14 +60,12 @@ nav ul {
   display: flex;
   align-items: center;
 }
-
 .hero__text-container {
   text-align: center;
   position: absolute;
   width: 100%;
   margin: auto;
 }
-
 .hero__text-highlight {
   color: rgba(228, 16, 16, 0.816);
 }

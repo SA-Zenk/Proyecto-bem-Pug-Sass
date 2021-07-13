@@ -1,0 +1,12 @@
+.title {
+  background-color: lightcoral;
+}
+.title--big {
+  background-color: blueviolet;
+}
+.title--big:hover {
+  background-color: brown;
+}
+.title__logo {
+  background-color: black;
+}

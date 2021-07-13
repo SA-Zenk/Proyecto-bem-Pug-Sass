@@ -1,0 +1,73 @@
+.content {
+	
+	&__prodcut {
+		display: flex;
+	}
+
+ &__left-content {
+		height: 100vh;
+		overflow: hidden;
+		width: 50%;
+	}
+
+	&__left-content--yellow {
+		background: #fdd520c9;
+	}
+
+	&__left-content--brown {
+		background: #dc8709b1;
+	}
+
+	&__left-content--blue {
+		background: #13e1b4b1;
+	}
+
+	&__title {
+		font-size: 60px;
+		width: 50%;
+		margin: auto;
+		margin-bottom: 40px;
+		color: rgba(7, 6, 6, 0.96);
+		margin-left: 80px;
+	}
+
+	&__title-highlight--green {
+		color: #06ca16;
+	}
+
+	&__title-highlight--yellow {
+		color: rgba(243, 189, 10, 0.796);
+	}
+
+	&__title-highlight--blue {
+		color: rgba(18, 80, 237, 0.823);
+	}
+
+	&__info {
+		font-size: 15px;
+		line-height: 30px;
+		width: 50%;
+		margin: auto;
+		margin-left: 80px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	&__image {
+		background-size: cover;
+		background-position: center;
+		width: 50%;
+		height: 100vh;
+	}
+
+	&__image--nopal {
+		background-image: url(../imagenes/TorNopal.jpeg);
+	}
+
+	&__image--chipotle {
+		background-image: url(../imagenes/TorChip.jpg);
+	}
+
+	&__image--azul {
+		background-image: url(../imagenes/tortiazul2.jpg);
+	}
+}

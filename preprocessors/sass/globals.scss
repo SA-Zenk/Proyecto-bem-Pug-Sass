@@ -1,0 +1,28 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	background: url(../imagenes/fondo3.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+img {
+	width: 100%;
+}
+
+h1 {
+	color: rgba(7, 6, 6, 0.679);
+	font-size: 60px;
+}
+
+nav {
+	ul {
+		display: flex;
+		list-style: none;
+		justify-content: space-evenly;
+		background: #fff;
+		padding: 15px 20px;
+		color: #353535;
+		font-family: sans-serif;
+	}
+}
